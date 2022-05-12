@@ -21,7 +21,7 @@ class Activo implements IGuardable{
     private $contactomnt;
     private $telefonomnt;
     
-    
+    const REG_TFNO='/^((?:\d{3}[ -]\d{2}[ -]\d{2}[ -]\d{2})|(?:\d{3}[ -]\d{3}[ -]\d{3})|(?:\d{9}))(?:[;](?1))*$/';
     const MAX_LENGTH_TEXTOS=45;
     const MAX_TINYTEXT=255;
 
